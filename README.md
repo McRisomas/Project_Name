@@ -57,13 +57,18 @@ Raw Data
 
 ## 🗂️ Repository Structure
 
-├── notebooks/
-│ ├── HousePricing.ipynb
+Ames_Housing_Price_Prediction/
+├── README.md                   
+├── requirements.txt            
 ├── data/
-| ├── processed/
-| ├── raw/
-├── requirements.txt
-└── README.md
+│   ├── raw/
+│   │   ├── train.csv
+│   │   └── test.csv
+│   │   └── sample_submission.csv
+│   └── processed/               
+│       └── submission.csv
+├── notebooks/
+│   ├── HousePricing.ipynb
 
 ## ⚙️ How to Run
 
